@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="x-icon" href="./images/tat.webp">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port-Folio</title>
+    <script src="https://kit.fontawesome.com/eadf2e2471.js" crossorigin="anonymous"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Tarun</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="fas fa-home nav__icon"></i> HOME
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fas fa-user nav__icon"></i> ABOUT
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fas fa-file-alt nav__icon"></i> SKILLS
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="fas fa-graduation-cap nav__icon"></i> QUALIFICATION
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fas fa-air-freshener nav__icon"></i> PROJECTS
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fas fa-comment nav__icon"></i> CONTACT
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+            </div>
+
+
+            <div class="nav__btns">
+                <!--/*==================== DARK LIGHT THEME ====================*/ -->
+                <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--...........main....................-->
+    {{>main}}
+
+
+    {{>about}}
+
+    <!--......................skills.....................-->
+
+    {{>skills}}
+    <!--...........qualifications...............-->
+
+    {{>qualification}}
+
+    <!--.................... portfolio ............-->
+    {{>project}}
+
+    <!--/*==================== PROJECT IN MIND ====================*/-->
+
+    {{>idea}}
+    <!--/*==================== CONTACT ME ====================*/-->
+    {{>contact}}
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+        <!--<i class="fas fa-hand-point-up scrollup__icon"></i>-->
+    </a>
+
+
+    </main>
+
+    <script src="./js/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
